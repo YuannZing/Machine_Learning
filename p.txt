@@ -1,0 +1,86 @@
+pr tunjukan visual data boxplot,hestogram,lingkaran
+aku belum bikin hitung nilai rata rata k nya mjir
+
+jadi sebelumnya saya dapat pr dari pembimbing saya, kurang lebih seperti ini:
+- report, visualisasi data yang sudah di load itu dibikinkan histogramnya
+- akurasi testing
+-mencuning parameter knn (mengubah ubah nilai k nya)
+- PR visualisasikan dengan box plot, skater, histogram, grafik lingkaran
+
+apakah kodingan diatas sudah memenuhi target pr saya?
+
+5/12/2024
+olah data iris
+train test split
+coba desiccion tree library sklearn trus diterapkan ke iris
+cufusion matrix/classification report untuk memunculkan 
+
+11/12/2024
+coba olah data iris ke Suport vector machine (svm),random forest, naive bayest dan dicari akurasinya
+
+1/7/2025
+konsep kmeans cluster
+indikator penentuan jumlah cluser ada 2 SSE(sum square error) dan silhoute coeficiend
+
+1/8/2025
+buat cluster dari excel tunjukan
+jangan lupa di drop class nya
+dibuat bertahap seperti KNN:Eksplorasi data(tipe nya apa dll),Data cleaning,Data preprocess,K means Cluster(input-> nilai k, sigma iterasi,
+                                                                                                            output-> label untuk masing masing data),visualisasi hasil cluster.
+
+1/15/2025
+korelasi ini sekedar oh ini punya pattern bersama
+2 cara menunjukkan korelasi: 
+    1. scatter plot, 
+    2. koefisien korelasi
+
+
+3 hubungan scatter plot :
+ 1. korelasi positif membentuk garis seperti (/) (jadi Jika X naik maka Y juga naik)
+ 2. korelasi negatif membentuk garis seperti (\) (jadi Jika X naik maka Y menurun atau sebaliknya)
+ 3. tidak ada korelasi (tidak membentuk suatu pola)
+
+pattern akan semakin terlihat jika r (koefisien mendekati 1) contoh:
+    r = 0.20 akan masih tidak beraturan dan r = 0.90 akan terlihat tegas
+    r = - 0.60 akan masih tidak beraturan dan r = - 0.95 akan terlihat tegas
+
+garis regresi yang bagus adalah ketika errornya paling kecil
+error adalah titik yang tidak terkena garis regresi
+sumbu X adalah data yang akan digunakan untuk memprediksi
+sumbu Y adalah data yang akan digunakan untuk diprediksi
+
+regresi linier sederhana :
+    Y' = a + bX
+
+2/5/2025
+text mining untuk daa yang tidak terstruktur(seperti video,suara dll)
+phonology bisa katanya sama tapi bisa beda makna (loro(sakit) dan loro(dua))
+pragmatics adalah kata kata yang tidak ditulis secara explisit namun menggunakan bahasa kiasan yang bikin beda makna
+data mining itu adalah data extract dari masa lalu
+library yang dibolehkan nltk
+
+2/10/2025
+peserta berhak menghapus term(column)jika kebanyakan 0.00000 sekian
+akurasi adalah banyaknya prediksi dibagi banyaknya data tes 
+AKurasi = (total prediksi benar / total data tes) * 100%
+
+2/12/2025
+business issue understanding = memahami case dan memahami tujuan dibuatnya analisis dari case itu (kayak "mau bikin aplikasi apa sih jurinya")
+Data understanding = memahami karakteristik data tersebut (mengetahui fitur dan label,banyaknya data,kategori data, )
+Data preparation = kita memastikan data untuk dianalisi oleh algorithm(modeling) seperti menghapus missing value,normalisasi
+Analysis / Modeling =  melakukan training. Training adalah melatih algorithm dengan data masa lalu untuk membuat model dengan mengupdate fungsi parameter 
+
+data training yang baik adalah data yang bervariasi yang menghadirkan case yang ingin kita cari
+
+
+record harus banyak (untuk barisnya minimal 3x lebih banyak dari kolom)
+
+unsupervised adalah mengelompokkan object berdasarkan ciri cirinya
+
+2/13/2025
+fitur yang dipilih untuk menentukan class adalah entropy,gini index, dan error ...
+
+entropy,gini index, dan error... yang tinggi menunjukkan impurity,artinya ketika impurity itu fitur tersebut memiliki class yang berantakan(sangat bervariasi)
+
+2/18/2025
+tidak usah cek outlier dan normalisasi untuk decision tree
